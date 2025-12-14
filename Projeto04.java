@@ -1,5 +1,4 @@
 package projetos;
-import java.sql.SQLOutput;
 import java.util.Scanner;
 public class Projeto04 {
     public static void main(String[] args) {
@@ -48,3 +47,4 @@ public class Projeto04 {
         System.exit(0);
     }
 }
+
