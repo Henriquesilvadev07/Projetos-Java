@@ -8,7 +8,7 @@ public class Projeto {
         System.out.println("===================");
         System.out.println("Voce gostaria de continuar? S/N: ");
         String entrada = scanner.next();
-        if (entrada == "N || n") {
+        if (entrada.equalsIgnorecase("n")") {
             System.out.println("Encerrando o programa...");
             System.exit(0);
         } else {
@@ -37,3 +37,4 @@ public class Projeto {
         System.out.println("Boletim de: " + nome + ", idade: " +idade+ ", Série: " +serie+ ", média: " +notas);
     }
 }
+
